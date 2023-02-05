@@ -1,0 +1,384 @@
+<!-- https://wallpapers-all.com/uploads/posts/2016-12/26_gym.jpg
+background -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BodyFlex Gym</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #body {
+            margin: 0%;
+            background-color: rgb(229, 239, 247);
+        }
+
+        #title {
+            color: rgb(40, 39, 39);
+            /* border: 2px solid black; */
+            display: block;
+            margin: auto;
+            text-align: center;
+            padding: 0%;
+            margin-top: -1.5%;
+            margin-bottom: 30px;
+        }
+        #tag1{
+            display: inline-block;
+            float: left;
+            margin-left: 1%;
+            margin-top: 3.5%;
+            color: rgb(85, 81, 81);
+        }
+        #tag2{
+            display: inline-block;
+            float: right;
+            margin-right: 1%;
+            margin-top: 3.5%;
+            color: rgb(85, 81, 81);
+        }
+
+        #logo {
+            border: 2px solid black;
+            height: auto;
+            width: 102px;
+            padding: 5px;
+            border-radius: 100px;
+            background-color: white;
+            display: block;
+            margin: auto;
+            margin-top: 5px;
+        }
+
+        #img1 {
+            height: 80px;
+            width: 80px;
+        }
+
+        #navbar {
+            background-color: rgb(49, 46, 46);
+            height: 40px;
+            margin-top: -1.5%;
+        }
+        #navbar a{
+            text-decoration: none;
+            color: white;
+        }
+        #navbar a:hover{
+            color: blue;
+        }
+        #navbar a.active{
+            color: rgb(21, 255, 0);
+            text-decoration: underline;
+        }
+
+        #navbar ul li {
+            display: inline;
+            font-size: 22px;
+            margin-left: 15px;
+        }
+
+        #srch {
+            margin-left: 23%;
+            margin-top: 0.5%;
+            font-size: 20px;
+            width: 350px;
+        }
+
+        #container {
+            height: 617px;
+            width: 795px;
+            border: 2px solid black;
+            margin: 1px;
+            margin-bottom: 0px;
+            margin-right: 5px;
+            margin-top: 5px;
+            float: right;
+            background-image: url('https://wallpapers-all.com/uploads/posts/2016-12/26_gym.jpg');
+            background-size: 800px 617px;
+            background-repeat: no-repeat;
+            display: inline-block;
+        }
+
+        #form {
+            background-color: rgb(207, 202, 202);
+            border: 2px solid black;
+            width: 450px;
+            margin: 5px;
+            display: block;
+            display: inline-block;
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .data{
+            display:block;
+            text-align: center;
+            margin: 2.5px auto;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-style: italic;
+            width: 80%;
+            border-radius: 10px;
+        }
+        select{
+            
+            margin: 5% auto;
+            font-size: 20px;
+            width: 80%;
+            border-radius: 10px;
+            margin-top: 0%;
+            padding: 2px;
+        }
+        #submit{
+            display:block;
+            margin: 2.5px auto;
+        }
+        #submit:hover{
+            background-color: rgb(203, 203, 242);
+        }
+        #formtitle{
+            margin: auto;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 132px;
+            border-bottom: 2px solid black;
+        }
+        
+        #btn{
+            height: 70px;
+            width: 70px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+            border: 2px solid black;
+            border-radius: 100%;
+            position: fixed;
+            right: 5px;
+            bottom: 5px;
+            background-color: rgb(204, 254, 254);
+        }
+
+
+
+        .gymtrainer{
+            border: 2px solid black;
+            margin: 5px 5px;
+            display: inline-block;
+            height: 500px;
+            width: 400px;
+        }
+        #trainer1{
+            margin-left: 8px;
+        }
+        #trainer2{
+            margin-left: 14px;
+        }
+        #trainer3{
+            margin-left: 14px;
+        }
+        #trainer4{
+            margin-left: 8px;
+        }
+        #trainer5{
+            margin-left: 14px;
+        }
+        #trainer6{
+            margin-left: 14px;
+        }
+        
+        #trainers{
+            color: rgb(0, 0, 0);
+            background-color: rgb(237, 221, 221);
+            border: 2px solid rgb(255, 255, 255);
+            margin-top: 15px;
+        }
+        #trainers h1{
+            text-align: center;
+            margin: 5px;
+        }
+        .trainerdata{
+            margin-top: -1%;
+            padding: 4px;
+            margin-top: -6%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+        }
+        .trainername{
+            margin-top: -1%;
+            text-align: center;
+        }
+        footer{
+            color: white;
+            background-color: rgb(48, 48, 48);
+            border-radius: 25px;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 2%;
+        }
+        #footernumber{
+            display: inline-block;
+            margin-left: 8%;
+        }
+        #footeremail{
+            display: inline-block;
+            float: left;
+            margin-left: 3%;
+        }
+        #footeraddress{
+            display: inline-block;
+            float: right;
+            margin-right: 5%;
+        }
+        
+    </style>
+
+</head>
+
+<body id="body">
+    <header>
+        <h2 id="tag1">WORLD BEST UNISEXUAL GYM</h2>
+        <h2 id="tag2">FIT WORLD HIT WORLD</h2>
+
+        <div id="logo">
+            <img id="img1"
+                src="https://www.jayshomegym.com/wp-content/uploads/2018/10/cropped-jays-home-gym-png-logo-2.png"
+                alt="Your Internet Connection is Slow">
+        </div>
+
+        <div id="title">
+            <h2>BODYFLEX GYM</h2>
+        </div>
+
+        <div id="navbar">
+            <ul>
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#"  target="_blank">Trainers</a> </li>
+                <li><a href="#"  target="_blank">Equipments</a> </li>
+                <li><a href="#"  target="_blank">Courses</a> </li>
+                <li><a href="#"  target="_blank">Contacts</a> </li>
+                <li><input type="search" placeholder="Search" id="srch"></li>
+            </ul>
+        </div>
+
+        <div id="container">
+        </div>
+
+    </header>
+
+    <div id="form">
+        <h3 id="formtitle">
+            FORM FILL
+        </h3>
+        <form action="run.php">
+            <input type="text" required placeholder="Name" class="data"><br>
+            <input type="number" required placeholder="Cont. Number" class="data"><br>
+            <input type="email" required placeholder="Email" class="data"><br>
+            <input type="number" required placeholder="Weight" class="data"><br>
+            <input type="number" required placeholder="Height" class="data"><br>
+             Date Of Birth<input type="date" required class="data"><br>
+
+                Choose center<br>
+            <select name="city" id="">
+                
+                <option>Indiana</option> 
+                <option>Colorado</option> 
+                <option>New Jersey</option> 
+                <option>Nebraska </option> 
+                <option>Arizona</option> 
+            </select>
+
+            <br>
+            Joining Date <input type="date" required class="data"><br>
+            <input type="submit" placeholder="SUBMIT" class="data" id="submit">
+        </form>
+
+    </div>
+
+    <div>
+        <button id="btn">
+            chatbot
+        </button>
+    </div>
+
+        
+
+    <div id="trainers">
+                            <h1 id="trt">TRAINERS</h1>
+
+        <div id="trainer1" class="gymtrainer">
+            <img src="https://cdn.shopify.com/s/files/1/0671/5555/articles/fit_babe_header.png?v=1473308095" height="400px" width="396px" alt="">
+            <h2 class="trainername">ALIAS</h2>
+            <p class="trainerdata">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel omnis obcaecati! Sunt, sed accusamus?</p>
+        </div>
+        <div id="trainer2" class="gymtrainer">
+            <img src="https://i.pinimg.com/736x/19/c1/cc/19c1cca5837f9a2ce9fdaaa0c5eda413.jpg" height="400px" width="396px" alt="">
+            <h2 class="trainername">LUCY</h2>
+            <p class="trainerdata">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel omnis obcaecati! Sunt, sed accusamus?</p>
+        </div>
+        <div id="trainer3" class="gymtrainer">
+            <img src="https://www.12thblog.com/wp-content/uploads/2020/08/alica-schmidt-36.jpeg"  height="400px" width="396px"alt="">
+            <h2 class="trainername">ANGELA</h2>
+            <p class="trainerdata">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel omnis obcaecati! Sunt, sed accusamus?</p>
+        </div>
+        <div id="trainer4" class="gymtrainer">
+            <img src="https://bigbodies.com/ImagesUpload/c2b100a1-cb8c-498e-91f5-e52dd7f00107.jpeg" height="400px" width="396px" alt="">
+            <h2 class="trainername">JOHN</h2>
+            <p class="trainerdata">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel omnis obcaecati! Sunt, sed accusamus?</p>
+        </div>
+        <div id="trainer5" class="gymtrainer">
+            <img src="https://lh3.googleusercontent.com/-p9C8Cz58wH4/AAAAAAAAAAI/AAAAAAAAAC8/1tTZ292G470/s426/photo.jpg" height="400px" width="396px" alt="">
+            <h2 class="trainername">JONNY</h2>
+            <p class="trainerdata">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel omnis obcaecati! Sunt, sed accusamus?</p>
+        </div>
+        <div id="trainer6" class="gymtrainer">
+            <img src="https://i.pinimg.com/originals/3c/c3/80/3cc3803d2fa9abf6d79d722a8181e8bd.jpg" height="400px" width="396px" alt="">
+            <h2 class="trainername">ELBERT</h2>
+            <p class="trainerdata">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel omnis obcaecati! Sunt, sed accusamus?</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <div id="footernumber">
+            <h2>
+                CONTACT NO:- 
+            </h2>
+            (767) 366-3195, <br>
+            (842) 284-7141, <br>
+            (593) 674-9054, <br>
+            (944) 235-1128, <br>
+            (824) 932-6417, <br>
+            (748) 565-0934.
+        </div>
+            <div id="footeremail">
+                <h2>
+                    EMAIL
+                </h2>
+                    jacey_ondricka@hotmail.com <br>
+                    kay_renner@gmail.com <br>
+                    trinity20@yahoo.com <br>
+            </div>
+            <div id="footeraddress">
+                <h2>
+                    ADDRESS
+                </h2>
+                58865 Friesen Pine, Apt. 148, 36632, New Faustochester, Indiana, United States <br>
+                711 Abernathy Mountains, Suite 369, 42472, Krystaltown, Colorado, United States <br>
+                110 Linda Alley, Apt. 653, 96611, Lake Demarcus, New Jersey, United States <br>
+                462 Eleazar Plain, Suite 181, 86252-0848, Hellerland, Nebraska, United States <br>
+                73990 Baylee Corners, Suite 685, 12720, Monroeburgh, Arizona, United States <br>
+            </div>
+    </footer>
+
+</body>
+
+</html>
